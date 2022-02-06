@@ -30,7 +30,7 @@ For your submission, please submit the following:
 - Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
   1. Job failed because of compile errors. ![SCREENSHOT01](SCREENSHOT01.png)
   1. Job failed because of unit tests. ![SCREENSHOT02](SCREENSHOT02.png)
-  1. Job that failed because of vulnerable packages. [SCREENSHOT03]
+  1. Job that failed because of vulnerable packages. ![SCREENSHOT03](SCREENSHOT03.png)
   1. An alert from one of your failed builds. [SCREENSHOT04]
   1. Appropriate job failure for infrastructure creation. [SCREENSHOT05]
   1. Appropriate job failure for the smoke test job. [SCREENSHOT06]
