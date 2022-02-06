@@ -31,7 +31,7 @@ For your submission, please submit the following:
   1. Job failed because of compile errors. ![SCREENSHOT01](SCREENSHOT01.png)
   1. Job failed because of unit tests. ![SCREENSHOT02](SCREENSHOT02.png)
   1. Job that failed because of vulnerable packages. ![SCREENSHOT03](SCREENSHOT03.png)
-  1. An alert from one of your failed builds. [SCREENSHOT04]
+  1. An alert from one of your failed builds. ![SCREENSHOT04](SCREENSHOT04.png)
   1. Appropriate job failure for infrastructure creation. [SCREENSHOT05]
   1. Appropriate job failure for the smoke test job. [SCREENSHOT06]
   1. Successful rollback after a failed smoke test. [SCREENSHOT07]  
