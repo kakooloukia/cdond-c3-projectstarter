@@ -1,0 +1,14 @@
+---
+
+- name: NPM installation
+  shell: npm install
+  args:
+    chdir: ~/project/backend
+
+- name: Start
+  shell: pm2 stop default && pm2 start npm -- start
+  args:
+    chdir: ~/project/backend
+
+
+
