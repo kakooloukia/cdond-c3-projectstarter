@@ -13,8 +13,8 @@ commands:
           name: Destroy environments
           when: on_fail
           command: |
-            aws cloudformation delete-stack --stack-name udapeople-backend-${parameters.workflow_id}
-            aws cloudformation delete-stack --stack-name udapeople-frontend-${parameters.workflow_id}
+            aws cloudformation delete-stack --stack-name udapeople-backend-${workflow_id}
+            aws cloudformation delete-stack --stack-name udapeople-frontend-${workflow_id}
 
   # revert-migrations:
   #   description: Revert the last migration if successfully run in the current workflow.
@@ -154,6 +154,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install tar utility
+          command: |
+            yum install -y tar gzip
+      - run:
           name: Ensure back-end infrastructure exists
           command: |
             aws cloudformation deploy \
@@ -196,7 +200,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["00:11:REPLACE_ME:EE:FF"]
+          fingerprints: ["5c:c4:d4:d6:f6:4f:2a:31:39:67:a7:49:cb:dc:72:8d"]
       - attach_workspace:
           at: ~/
       - run:
@@ -207,7 +211,6 @@ jobs:
           name: Configure server
           command: |
             ansible-playbook -i inventory.txt main4.yml
-      # Here's where you will add some code to rollback on failure
       - destroy-environment:
           workflow_id: ${CIRCLE_WORKFLOW_ID:0:7}
       - slack/notify:

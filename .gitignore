@@ -1,6 +1,7 @@
 *~
 *.sw[mnpcod]
 *.log
+*.pem
 *.tmp
 *.tmp.*
 log.txt
