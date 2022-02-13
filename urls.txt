@@ -1,0 +1,12 @@
+Public Url to GitHub repository (not private):
+  - https://github.com/kakooloukia/nd9991-c3-hello-world-exercise-solution)
+Public URL for your S3 Bucket (aka, your green candidate front-end)
+  - s3://udapeople-95e50d9
+Public URL for your CloudFront distribution (aka, your blue production front-end)
+  - http://d20i74zs69utph.cloudfront.net/
+Public URLs to deployed application back-end in EC2
+  - http://18.234.140.157:3030
+  - http://ec2-18-234-140-157.compute-1.amazonaws.com:3030
+
+Public URL to your Prometheus Server
+  - http://ec2-54-173-242-20.compute-1.amazonaws.com:9090
