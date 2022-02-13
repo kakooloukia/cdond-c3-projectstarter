@@ -1,5 +1,5 @@
 Public Url to GitHub repository (not private):
-  - https://github.com/kakooloukia/nd9991-c3-hello-world-exercise-solution)
+  - https://github.com/kakooloukia/cdond-c3-projectstarter)
 Public URL for your S3 Bucket (aka, your green candidate front-end)
   - s3://udapeople-95e50d9
 Public URL for your CloudFront distribution (aka, your blue production front-end)
