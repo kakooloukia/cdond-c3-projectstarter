@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/kakooloukia/cdond-c3-projectstarter.svg?style=svg)](https://app.circleci.com/pipelines/github/kakooloukia/cdond-c3-projectstarter)
+
 ## Give your Application Auto-Deploy Superpowers
 
 In this project, you will prove your mastery of the following learning objectives:
@@ -23,11 +25,16 @@ For your submission, please submit the following:
 
 - A text file named `urls.txt` including:
   1. Public Url to GitHub repository (not private) URL01: https://github.com/kakooloukia/nd9991-c3-hello-world-exercise-solution
-  1. Public URL for your S3 Bucket (aka, your green candidate front-end) URL02: s3://udapeople-95e50d9
-  1. Public URL for your CloudFront distribution (aka, your blue production front-end) URL3: http://d20i74zs69utph.cloudfront.net/
+  1. Public URL for your S3 Bucket (aka, your green candidate front-end) URL02: s3://udapeople-699f190 eg: https://udapeople-699f190.s3.amazonaws.com/README.md
   ![URL03](URL03.png)
-  1. Public URLs to deployed application back-end in EC2 URL04: http://18.234.140.157:3030
+  1. Public URL for your CloudFront distribution (aka, your blue production front-end) URL3: http://udapeople-699f190.s3-website-us-east-1.amazonaws.com
+  ![URL03](URL03.png)
+  ![URL03_frontend.png](URL03_frontend.png)
+  1. Public URLs to deployed application back-end in EC2 URL04: http://34.238.241.241:3030
+  ![URL04](URL04.png)
   1. Public URL to your Prometheus Server URL05: http://ec2-54-173-242-20.compute-1.amazonaws.com:9090
+  ![SCREENSHOT12](SCREENSHOT12_targets_prometheus.png)
+
 - Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
   1. Job failed because of compile errors. ![SCREENSHOT01](SCREENSHOT01.png)
   1. Job failed because of unit tests. ![SCREENSHOT02](SCREENSHOT02.png)
@@ -44,8 +51,9 @@ For your submission, please submit the following:
   ![SCREENSHOT11](SCREENSHOT11_disk.png)
   ![SCREENSHOT11](SCREENSHOT11_memory.png)
   1. Provide a screenshot of an alert that was sent by Prometheus.
-  ![SCREENSHOT12](SCREENSHOT12.png)
-  ![SCREENSHOT12](SCREENSHOT12_gmail.png)
+  ![SCREENSHOT12](SCREENSHOT12_targets_prometheus.png)
+  ![SCREENSHOT12](SCREENSHOT12_Alert_triggering_prometheus.png)
+  ![SCREENSHOT12](SCREENSHOT12_mail.png)
 
 - Your presentation should be in PDF format named "presentation.pdf" and should be included in your code repository root folder.
 
